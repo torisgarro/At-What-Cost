@@ -1,0 +1,32 @@
+.sideNav {
+	position: fixed;
+	z-index: 90;
+	top: 200px;
+    left: 90px;
+}
+
+.sideNav__navSquare {
+    height: 50px;
+    width: 50px;
+    padding: 12px;
+    text-align: center;
+    font-family: Overpass;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.sideNav__navSquare:hover, .sideNav__navSquare--active {
+    height: 50px;
+    width: 50px;
+    padding: 12px;
+    text-align: center;
+    background-color: #1920FE;
+}
+
+.sideNav__navSquare a:visited {
+    color: #d7d7d7;
+}
+
+.sideNav__navSquare:hover a, .sideNav__navSquare--active a, .sideNav__navSquare--active a:visited {
+    color: #ffffff;
+}

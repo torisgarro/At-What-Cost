@@ -1,0 +1,20 @@
+.exerciseIntro {
+	margin-top: 200px;
+	padding: 0 200px;
+}
+
+.exerciseIntro__title {
+	padding-bottom: 40px;
+}
+
+.exerciseIntro__subheader {
+	padding-bottom: 100px;
+}
+
+.exerciseIntro__exampleTitle {
+	padding-bottom: 20px;
+}
+
+.exerciseIntro__exampleText {
+	padding-bottom: 100px;
+}

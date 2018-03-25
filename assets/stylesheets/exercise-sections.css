@@ -1,0 +1,44 @@
+.exerciseSection {
+    background-color: #F7F7F7;
+    padding: 100px 0;
+}
+
+.exerciseSection__title {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.exerciseSection img {
+	max-width: 600px;
+	padding: 0 50px 0 0;
+}
+
+.exerciseSection__exerciseInstructionsTitle {
+    padding-bottom: 20px;
+}
+
+.exerciseSection__exerciseInstructionsBullets {
+    padding-bottom: 60px;
+}
+
+ul {
+    font-family: Overpass;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 300;
+    color: #000000;
+}
+
+li {
+    margin: 0;
+	padding: 0 0 0 30px;
+	list-style: none;
+	background-image: url("../images/plus_icon.png");
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+	background-size: 12px;
+}
+
+.exerciseSection__share {
+    margin: 200px 0 30px 0;
+}

@@ -1,0 +1,42 @@
+.scrollButton {
+    text-align: center;
+}
+
+.scrollButton:hover {
+    cursor: pointer;
+}
+
+.scrollButton__text {
+    color: #1920FE;
+    font-family: Overpass;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    z-index: 10000
+}
+
+.scrollButton__arrow {
+    display: block;
+    width: 18px;
+    margin: 0 auto;
+    z-index: 10000
+}
+
+#previous {
+    z-index: 200;
+    position: absolute;
+    left: calc(50% - 34px);
+}
+#previousArrow {
+    margin-top: 20px;
+    z-index: 10000
+}
+
+#next {
+    padding-top: 100px;
+}
+
+#nextArrow {
+    margin-bottom: 40px;
+}

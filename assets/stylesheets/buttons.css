@@ -1,0 +1,39 @@
+.mainButton {
+    display: inline-block;
+    height: 35px;
+    padding: 0 30px;
+    margin-top: 30px;
+    border: 1px solid #1920FE;
+    background-color: #FFFFFF;
+    color:#1920FE;
+    font-family: Overpass;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 35px;
+    box-shadow: 3px 3px 0px #1920FE;
+}
+
+.mainButton:hover {
+    box-shadow: 1px 1px 0px;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.centerButton {
+    display: inline-block;
+    margin: 40px auto 100px auto;
+}
+
+.pageTitle {
+    text-decoration: none;
+    color: #000000;
+}
+
+.articleLink {
+    color: #1920FE;
+    font-weight: 700;
+}
+

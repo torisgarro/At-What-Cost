@@ -1,0 +1,73 @@
+@media screen and (max-width: 1170px) {
+    .mainNav {
+        background-color: #ffffff;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .mainNav {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .siteTitle {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    .hero {
+        background-color: #F7F7F7;
+        margin: 50px 0px 100px 0px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    h1 {
+        margin: 100px 0 40px 0;
+        text-align: left;
+    }
+    .hero {
+        padding: 0 120px;
+    }
+    .mainButton {
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+
+    .sideNav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .mainNav {
+        padding-right: 30px;
+        padding-left: 30px;
+        position: relative;
+    }
+
+    .hero {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h4 {
+        font-size: 28px;
+    }
+
+    .exerciseSection img {
+        display: none;
+    }
+    
+}

@@ -1,0 +1,18 @@
+.hero {
+    background-color: #F7F7F7;
+    padding: 100px 60px 100px 0;
+    margin: 50px 35px 100px 35px;
+}
+
+.hero__siteIntro {
+    display: block;
+    padding: 0 0 40px 0;
+}
+
+.hero__subheader {
+    padding: 0 0 20px 0;
+}
+
+.hero__text {
+    margin-bottom: 40px;
+}

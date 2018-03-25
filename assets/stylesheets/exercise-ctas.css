@@ -1,0 +1,19 @@
+.exerciseCta {
+    padding: 0 200px;
+}
+
+.exerciseCta__Title {
+    padding: 100px 0 20px 0;
+}
+
+.exerciseCta__furtherReading {
+    padding-top: 30px;
+    font-weight: 700;
+}
+
+.exerciseCta__articleLink {
+    font-family: Overpass;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1920FE;
+}
