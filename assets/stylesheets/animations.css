@@ -5,14 +5,9 @@
     position: absolute;
     z-index: 5000;
     top: -120%;
-    animation: slidein 1.2s .5s;
+    animation: slidein 1.3s .1s;
     animation-timing-function: cubic-bezier(.71,.01,.27,1);
     transition: opacity 1.2s ease-in;
-}
-
-body {
-    animation: fadein .5s;
-    animation-delay: 1.3s;
 }
 
 @keyframes slidein {

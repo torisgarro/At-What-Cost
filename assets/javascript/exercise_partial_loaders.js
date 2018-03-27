@@ -4,6 +4,9 @@ var globalPage = 1;
 function setUpPage() {
     setCurrentPage();
     goToPage(globalPage);
+
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
 //Function to set curent page
@@ -12,15 +15,15 @@ function setCurrentPage() {
     var page = parseInt(window.location.hash[1]);
     //If the page is a number, set globalPage to page
     if (!isNaN(page)) {
-        globalPage = page;  
+        globalPage = page;
     }
     //Hide next button if page hash is 5, else show it
-    if(globalPage == 5){
+    if (globalPage == 5) {
         $("#scrollButton").hide();
         $("#next").hide();
         $(".sideNav").hide();
         $(".exerciseSection").hide();
-    } 
+    }
     else {
         $("#scrollButton").show();
         $("#next").show();
@@ -28,7 +31,7 @@ function setCurrentPage() {
         $(".exerciseSection").show();
     }
     //Hide previous button if page hash is 1, else show it
-    if(globalPage == 1){
+    if (globalPage == 1) {
         $("#previous").hide();
     }
     else {
@@ -51,13 +54,27 @@ function goToPage(pageNumber) {
 }
 
 //Function to set and go to next page
-function nextPage(){
+function nextPage() {
     //Know what page should be next, and not greater than 5
     window.location.hash = Math.min(5, globalPage + 1);
-}
+
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+
+//     $(window).scroll(function () {
+//         var top = $("#next");
+//         if ($('body').height() <= ($(window).height() + $(window).scrollTop() + 200)) {
+//             top.animate({ "margin-left": "0px" }, 1500);
+//         }
+//     });
+
+//     $("#next").on('click', function () {
+//         $("html, body").animate({ scrollTop: 0 }, 400);
+//     });
+};
 
 //Function to set and go to previous page
-function previousPage(){
+function previousPage() {
     //Know what page should be next, and not more than 1
     window.location.hash = Math.max(1, globalPage - 1);
 }
@@ -68,9 +85,9 @@ $(document).ready(function () {
     setUpPage();
 
     //When the page's hash number changes, rerun setUpPage function
-    window.onhashchange = setUpPage; 
+    window.onhashchange = setUpPage;
     window.onpopstate = setUpPage;
-       
+
     //When user clicks next, run nextPage function
     $("#next").on("click", nextPage);
 

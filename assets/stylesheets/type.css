@@ -60,6 +60,10 @@ a {
     text-decoration: none;
 }
 
+#backHome:visited {
+    color: #000000;
+}
+
 p {
     font-family: Overpass;
     font-size: 14px;

@@ -19,6 +19,12 @@
         background-color: #F7F7F7;
         margin: 50px 0px 100px 0px;
     }
+    .exerciseIntro {
+        padding: 0 160px;
+    }
+    .exerciseCta {
+        padding: 0 160px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -32,6 +38,13 @@
     .mainButton {
         margin-bottom: 60px;
     }
+
+    .exerciseIntro {
+        padding: 0 40px;
+    }
+    .exerciseCta {
+        padding: 0 40px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -43,6 +56,11 @@
     .sideNav {
         display: none;
     }
+
+    .sideNav__navSquare {
+        display: none;
+    }
+    
 }
 
 @media screen and (max-width: 400px) {
