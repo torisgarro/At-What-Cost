@@ -38,11 +38,21 @@
     .mainButton {
         margin-bottom: 60px;
     }
-
     .exerciseIntro {
         padding: 0 40px;
     }
     .exerciseCta {
+        padding: 0 40px;
+    }
+    .sideNav{
+        left: 50px;
+    }
+    .exerciseSection img {
+        padding: 0 0px 80px 0;
+        margin: 0 auto;
+        display: block;
+    }
+    .exerciseSection__text {
         padding: 0 40px;
     }
 }
@@ -60,7 +70,22 @@
     .sideNav__navSquare {
         display: none;
     }
-    
+
+    .exerciseSection img {
+        display: none;
+    }
+
+    .exerciseSection__text {
+        padding: 0 40px;
+    }
+
+    .exerciseImage {
+        display: none;
+    }
+
+    .exerciseIntro {
+        margin-top: 60px;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -84,8 +109,8 @@
         font-size: 28px;
     }
 
-    .exerciseSection img {
-        display: none;
+    .exerciseSection {
+        padding: 60px 0;
     }
     
 }

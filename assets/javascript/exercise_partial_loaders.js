@@ -4,9 +4,18 @@ var globalPage = 1;
 function setUpPage() {
     setCurrentPage();
     goToPage(globalPage);
+    updateCloseButton(globalPage);
 
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+function updateCloseButton(pageNumber) {
+    var exercisePageTitle = "Exercise " + pageNumber;
+    if (pageNumber == 5) {
+        exercisePageTitle = "Download";
+    }
+    $(".mainNav__closeExercises__pageTitle").html(exercisePageTitle);
 }
 
 //Function to set curent page
