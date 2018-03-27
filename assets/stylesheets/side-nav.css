@@ -23,7 +23,7 @@
     background-color: #1920FE;
 }
 
-.sideNav__navSquare a:visited {
+.sideNav__navSquare a:visited, .sideNav__navSquare a {
     color: #d7d7d7;
 }
 
