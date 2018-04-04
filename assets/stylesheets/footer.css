@@ -1,8 +1,20 @@
-.footer {
-    margin-bottom: 40px;
-    padding-bottom: 60px;
+.wrapperFooter {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(60px, auto);
+    grid-column-gap: 20px;
+    grid-template-areas:
+        "copyright feedback";
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
 }
 
-.feedback {
-    text-align: right;
+.wrapperFooter__copyright {
+    grid-area: copyright;
+    justify-self: start;
+}
+
+.wrapperFooter__feedback {
+    grid-area: feedback;
+    justify-self: end;
 }

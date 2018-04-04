@@ -1,27 +1,41 @@
-.mainNav {
+.wrapperMainNav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50px;
+    grid-column-gap: 20px;
+    grid-template-areas:
+        "left right";
     position: fixed;
     top: 0px;
     z-index: 100;
     width: 100%;
-    height: 50px;
-    padding: 0 80px;
 }
 
-.mainNav__social {
-    float: right;
-    vertical-align: top;
-    display: inline-block;
+.wrapperMainNav__logo {
+    grid-area: left;
+    justify-self: start;
+    align-self: center;
+    margin-left: 80px;
+}
+
+.wrapperMainNav__social {
+    grid-area: right;
+    justify-self: end;
+    align-self: center;
+    margin-right: 80px;
 }
     
-.mainNav__social__socialIcon {
+.wrapperMainNav__social__socialIcon {
     vertical-align: top;    
     width: 30px;
     margin: 10px;
 }
 
-.mainNav__closeExercises {
-    text-align: right;
-    float: right;
+.wrapperMainNav__closeExercises {
+    grid-area: right;
+    justify-self: end;
+    align-self: center;
+    margin-right: 80px;
 }
 
 .mainNav__closeExercises__pageTitle {

@@ -6,20 +6,18 @@
     <title>At What Cost?</title>
 
     <link rel="stylesheet" href="./assets/stylesheets/animations.css">
-    <link rel="stylesheet" href="./assets/stylesheets/bootstrap-grid.css">
     <link rel="stylesheet" href="./assets/stylesheets/buttons.css">
     <link rel="stylesheet" href="../assets/stylesheets/exercise-ctas.css">
     <link rel="stylesheet" href="./assets/stylesheets/exercise-intros.css">
     <link rel="stylesheet" href="./assets/stylesheets/exercise-sections.css">
     <link rel="stylesheet" href="./assets/stylesheets/footer.css">
+    <link rel="stylesheet" href="./assets/stylesheets/grid.css">
     <link rel="stylesheet" href="./assets/stylesheets/hero.css">
     <link rel="stylesheet" href="./assets/stylesheets/layout.css">
     <link rel="stylesheet" href="./assets/stylesheets/main-nav.css">
     <link rel="stylesheet" href="./assets/stylesheets/scroll-buttons.css">
     <link rel="stylesheet" href="./assets/stylesheets/side-nav.css">
     <link rel="stylesheet" href="./assets/stylesheets/type.css">
-
-    <link rel="stylesheet" href="../assets/stylesheets/responsive.css">
 
     <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/pvk4ocu.css">
@@ -31,81 +29,70 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="mainNav">
-            <div class="row">
-                <div class="col">
-                    <a href="./index.html">
-                        <h6>At what cost?</h6>
-                    </a>
-                </div>
-
-                <div class="mainNav__social">
-                    <a href="#">
-                        <img src="./assets/images/facebook_icon.png" alt="Facebook Icon" class="mainNav__social__socialIcon">
-                    </a>
-                    <a>
-                        <img src="./assets/images/twitter_icon.png" alt="Twitter Icon" class="mainNav__social__socialIcon">
-                    </a>
-                    <a>
-                        <img src="./assets/images/email_icon.png" alt="Email Icon" class="mainNav__social__socialIcon">
-                    </a>
-                </div>
-            </div>
+    <div class="wrapperMainNav">
+        <div class="wrapperMainNav__logo">
+        <a href="./index.html">
+            <h6>At what cost?</h6>
+        </a>
+    </div>
+        <div class="wrapperMainNav__social">
+            <a href="#">
+                <img src="./assets/images/facebook_icon.png" alt="Facebook Icon" class="wrapperMainNav__social__socialIcon">
+            </a>
+            <a>
+                <img src="./assets/images/twitter_icon.png" alt="Twitter Icon" class="wrapperMainNav__social__socialIcon">
+            </a>
+            <a>
+                <img src="./assets/images/email_icon.png" alt="Email Icon" class="wrapperMainNav__social__socialIcon">
+            </a>
         </div>
     </div>
 
     <div class="hero">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg">
-                    <h1>At what cost?</h1>
-                </div>
+        <div class="wrapperContent">
+            <div class="hero__siteTitle">
+                <h1>At what cost?</h1>
+            </div>
 
-                <div class="col-lg">
-                    <div class="hero__siteIntro">
-                        <h3 class="hero__subheader">A tool for designers to examine the broader impact of their work.</h3>
-                        <div class="hero__text">
-                            <p>
-                                As experience designers, we recognize that context influences our work. So we investigate our users’ needs, interests, biases,
-                                motivations and life circumstances.
-                            </p>
-                            <p>
-                                But our research shouldn’t stop there. While our industry’s best practices account for a user’s individual and present situation,
-                                they fail to consider the larger systems in which we live. Too often, this neglect generates
-                                new problems that accompany disruption and innovation.
-                            </p>
-                            <p>
-                                This site reframes how we contextualize our designs. As designers and design-led organizations gain influence, we have a
-                                responsibility to expand our thinking to include the long-term with the immediate, the societal
-                                with the individual, and the intentional with the convenient. This responsibility falls to
-                                us, as gatekeepers between an idea and its reality.
-                            </p>
-                        </div>
-                        <a href="exercises-intros/show.html" class="mainButton" id="startExercises">Start the exercises</a>
-                    </div>
+            <div class="hero__siteIntro">
+                <h3>A tool for designers to examine the broader impact of their work.</h3>
+                <div>
+                    <p>
+                        As experience designers, we recognize that context influences our work. So we investigate our users’ needs, interests, biases,
+                        motivations and life circumstances.
+                    </p>
+                    <p>
+                        But our research shouldn’t stop there. While our industry’s best practices account for a user’s individual and present situation,
+                        they fail to consider the larger systems in which we live. Too often, this neglect generates new
+                        problems that accompany disruption and innovation.
+                    </p>
+                    <p>
+                        This site reframes how we contextualize our designs. As designers and design-led organizations gain influence, we have a
+                        responsibility to expand our thinking to include the long-term with the immediate, the societal with
+                        the individual, and the intentional with the convenient. This responsibility falls to us, as gatekeepers
+                        between an idea and its reality.
+                    </p>
                 </div>
+                <a href="exercises-intros/show.html" class="mainButton" id="startExercises">Start the exercises</a>
             </div>
         </div>
     </div>
 
-    <div class="center">
-        <h4>Share with your team</h4>
-        <a href="#" class="mainButton centerButton">Download the PDF</a>
+    <div class="wrapperContent">
+        <div class="share">
+            <h4>Share with your team</h4>
+            <a href="#" class="mainButton centerButton">Download the PDF</a>
+        </div>
     </div>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <p>© Victoria Sgarro</p>
-                </div>
-                <div class="col">
-                    <a href="#" class="feedback">
-                        <p>Give feedback</p>
-                    </a>
-                </div>
-            </div>
+    <footer class="wrapperFooter">
+        <div class="wrapperFooter__copyright">
+            <p>© Victoria Sgarro</p>
+        </div>
+        <div class="wrapperFooter__feedback">
+            <a href="#">
+                <p>Give feedback</p>
+            </a>
         </div>
     </footer>
 

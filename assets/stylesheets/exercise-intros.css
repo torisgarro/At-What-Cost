@@ -1,20 +1,32 @@
 .exerciseIntro {
-	margin-top: 200px;
-	padding: 0 200px;
+    grid-column: 4/11;
+	margin: 200px auto 0 auto;
 }
 
-.exerciseIntro__title {
-	padding-bottom: 40px;
+.exerciseIntro h2 {
+	margin-bottom: 20px;
 }
 
-.exerciseIntro__subheader {
-	padding-bottom: 100px;
+.exerciseIntro h3 {
+	margin-bottom: 80px;
 }
 
-.exerciseIntro__exampleTitle {
-	padding-bottom: 20px;
+.exerciseIntro h4 {
+	margin-bottom: 20px;
 }
 
-.exerciseIntro__exampleText {
-	padding-bottom: 100px;
+.exerciseIntro p {
+	margin-bottom: 80px;
+}
+
+.sharePage {
+	padding-top: 300px;
+}
+
+.sharePage h4 {
+	text-align: center;
+}
+
+.sharePage p {
+	text-align: center;
 }

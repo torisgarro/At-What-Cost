@@ -1,18 +1,27 @@
 .hero {
+    grid-column: 1/13;
     background-color: #F7F7F7;
-    padding: 100px 60px 100px 0;
-    margin: 50px 35px 100px 35px;
+    margin: 50px 35px 0;
+    padding: 100px 0;
+}
+
+.hero__siteTitle {
+    grid-column: 1/5;
+    justify-self: end;
 }
 
 .hero__siteIntro {
-    display: block;
-    padding: 0 0 40px 0;
+    grid-column: 6/11;
+    justify-self: start;
 }
 
-.hero__subheader {
-    padding: 0 0 20px 0;
+.hero h3 {
+    padding-bottom: 20px;
 }
 
-.hero__text {
-    margin-bottom: 40px;
+.share {
+    grid-column: 1/13;
+    justify-self: center;
+    text-align: center;
+    padding: 80px 0;
 }

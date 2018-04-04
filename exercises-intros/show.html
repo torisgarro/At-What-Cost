@@ -7,20 +7,18 @@
     <title>Intersectionality Map</title>
 
     <link rel="stylesheet" href="../assets/stylesheets/animations.css">
-    <link rel="stylesheet" href="../assets/stylesheets/bootstrap-grid.css">
     <link rel="stylesheet" href="../assets/stylesheets/buttons.css">
     <link rel="stylesheet" href="../assets/stylesheets/exercise-ctas.css">
     <link rel="stylesheet" href="../assets/stylesheets/exercise-intros.css">
     <link rel="stylesheet" href="../assets/stylesheets/exercise-sections.css">
     <link rel="stylesheet" href="../assets/stylesheets/footer.css">
+    <link rel="stylesheet" href="../assets/stylesheets/grid.css">
     <link rel="stylesheet" href="../assets/stylesheets/hero.css">
     <link rel="stylesheet" href="../assets/stylesheets/layout.css">
     <link rel="stylesheet" href="../assets/stylesheets/main-nav.css">
     <link rel="stylesheet" href="../assets/stylesheets/scroll-buttons.css">
     <link rel="stylesheet" href="../assets/stylesheets/side-nav.css">
     <link rel="stylesheet" href="../assets/stylesheets/type.css">
-
-    <link rel="stylesheet" href="../assets/stylesheets/responsive.css">
 
     <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/pvk4ocu.css">
@@ -33,94 +31,53 @@
 
 <body>
 
-    <!-- Previous scroll arrow-->
     <div class="scrollButton" id="previous">
         <img src="../assets/images/arrow_up_icon.png" alt="Previous Arrow" id="previousArrow" class="scrollButton__arrow">
         <p class="scrollButton__text">Previous</p>
     </div>
-    </div>
 
-    <!-- Container with  nav -->
-    <div class="container-fluid">
-        <div class="mainNav">
-            <div class="row">
-                <!-- Column with logo-->
-                <div class="col">
-                    <a href="../index.html">
-                        <h6>At what cost?</h6>
-                    </a>
-                </div>
-                <!-- Column with close -->
-                <div class="col">
-                    <div class="mainNav__closeExercises">
-                        <a href="../index.html">
-                            <p class="mainNav__closeExercises__pageTitle">Exercise 1</p>
-                            <img src="../assets/images/x_icon.png" alt="Close Icon" id="#previousArrow" class="mainNav__closeExercises__xIcon">
-                        </a>
-                    </div>
-                </div>
-            </div>
+    <div class="wrapperMainNav">
+        <div class="wrapperMainNav__logo">
+            <a href="../index.html">
+                <h6>At what cost?</h6>
+            </a>
+        </div>
+
+        <div class="wrapperMainNav__closeExercises">
+            <a href="../index.html">
+                <p class="mainNav__closeExercises__pageTitle">Exercise 1</p>
+                <img src="../assets/images/x_icon.png" alt="Close Icon" id="previousArrow" class="mainNav__closeExercises__xIcon">
+            </a>
         </div>
     </div>
 
-    <!-- Container with side nav and first partial -->
-    <div class="container-fluid">
-        <div class="sideNav">
-            <div id="navSquare1" class="sideNav__navSquare">
-                <a href="#1">1</a>
-            </div>
-            <div id="navSquare2" class="sideNav__navSquare">
-                <a href="#2">2</a>
-            </div>
-            <div id="navSquare3" class="sideNav__navSquare">
-                <a href="#3">3</a>
-            </div>
-            <div id="navSquare4" class="sideNav__navSquare">
-                <a href="#4">4</a>
-            </div>
+    <div class="sideNav">
+        <div id="navSquare1" class="sideNav__navSquare">
+            <a href="#1">1</a>
         </div>
-
-        <div class="row">
-            <div class="col">
-                <div id="exerciseIntrosPartials">
-                </div>
-            </div>
+        <div id="navSquare2" class="sideNav__navSquare">
+            <a href="#2">2</a>
+        </div>
+        <div id="navSquare3" class="sideNav__navSquare">
+            <a href="#3">3</a>
+        </div>
+        <div id="navSquare4" class="sideNav__navSquare">
+            <a href="#4">4</a>
         </div>
     </div>
 
-    <!-- Container with second partial -->
-    <div class="container-fluid">
-        <div class="exerciseSection">
-            <div class="row">
-                <div class="col">
-                    <div id="exerciseSectionsPartials">
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div id="exerciseIntrosPartials">
     </div>
 
-    <!-- Container with third partial -->
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div id="exerciseCtasPartials">
-                </div>
-            </div>
-        </div>
-    </div>
+    <div id="exerciseSectionsPartials" style="background:#f7f7f7">
     </div>
 
-    <!-- Container with next button -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <div class="scrollButton" id="next">
-                    <p class="scrollButton__text">Next</p>
-                    <img src="../assets/images/arrow_down_icon.png" alt="Next Arrow" id="nextArrow" class="scrollButton__arrow">
-                </div>
-            </div>
-        </div>
+    <div id="exerciseCtasPartials">
+    </div>
+
+    <div class="scrollButton" id="next">
+        <p class="scrollButton__text">Next</p>
+        <img src="../assets/images/arrow_down_icon.png" alt="Next Arrow" id="nextArrow" class="scrollButton__arrow">
     </div>
 
     <div class="transitionSlide"></div>

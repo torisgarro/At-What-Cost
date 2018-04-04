@@ -37,7 +37,6 @@ h4 {
 h5 {
     font-family: Overpass;
     font-size: 14px;
-    line-height: 1.25em;
     font-weight: 700;
     color: #000000;
     letter-spacing: 1px;
@@ -67,7 +66,7 @@ a {
 p {
     font-family: Overpass;
     font-size: 14px;
-    line-height: 1.5em;
+    line-height: 21px;
     font-weight: 300;
     color: #000000;
 }
