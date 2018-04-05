@@ -27,6 +27,12 @@ button:focus {
     margin: 40px auto 100px auto;
 }
 
+@media screen and (max-width: 768px) {
+    .centerButton {
+        margin-bottom: 80px;
+    }
+}
+
 .pageTitle {
     text-decoration: none;
     color: #000000;

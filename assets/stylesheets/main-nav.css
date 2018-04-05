@@ -24,7 +24,7 @@
     align-self: center;
     margin-right: 80px;
 }
-    
+
 .wrapperMainNav__social__socialIcon {
     vertical-align: top;    
     width: 30px;
@@ -36,6 +36,24 @@
     justify-self: end;
     align-self: center;
     margin-right: 80px;
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapperMainNav {
+        background: white;
+    }
+
+    .wrapperMainNav__logo {
+        margin-left: 30px;
+    }
+    
+    .wrapperMainNav__social {
+        margin-right: 30px;
+    }
+
+    .wrapperMainNav__closeExercises {
+        margin-right: 30px;
+    }
 }
 
 .mainNav__closeExercises__pageTitle {
@@ -50,4 +68,18 @@
 .mainNav__closeExercises__xIcon {
     width: 14px;
     display: inline-block;
+}
+
+@media screen and (max-width: 400px) {
+    .wrapperMainNav__logo {
+        margin-left: 25px;
+    }
+    
+    .wrapperMainNav__social {
+        margin-right: 25px;
+    }
+
+    .wrapperMainNav__closeExercises {
+        margin-right: 25px;
+    }
 }

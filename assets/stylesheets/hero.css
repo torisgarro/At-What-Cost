@@ -15,6 +15,23 @@
     justify-self: start;
 }
 
+@media screen and (max-width: 1200px) {
+    .hero {
+        margin: 50px 0 0 0;
+        padding: 80px 0;
+    }
+
+    .hero__siteTitle {
+        grid-column: 4/10;
+        justify-self: start;
+        margin-bottom: 20px;
+    }
+
+    .hero__siteIntro {
+        grid-column: 4/10;
+    }
+}
+
 .hero h3 {
     padding-bottom: 20px;
 }
@@ -24,4 +41,20 @@
     justify-self: center;
     text-align: center;
     padding: 80px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .hero__siteTitle {
+        grid-column: 1/13;
+    }
+
+    .hero__siteIntro {
+        grid-column: 1/13;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .hero {
+        padding-top: 60px;
+    }
 }

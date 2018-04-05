@@ -9,3 +9,15 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 768px) {
+    .wrapperContent {
+        margin: 0 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .wrapperContent {
+        margin: 0 25px;
+    }
+}

@@ -8,6 +8,7 @@
 .sideNav__navSquare {
     height: 50px;
     width: 50px;
+    line-height: 50px;
     padding: 12px;
     text-align: center;
     font-family: Overpass;
@@ -16,10 +17,6 @@
 }
 
 .sideNav__navSquare:hover, .sideNav__navSquare--active {
-    height: 50px;
-    width: 50px;
-    padding: 12px;
-    text-align: center;
     background-color: #1920FE;
 }
 
@@ -29,4 +26,10 @@
 
 .sideNav__navSquare:hover a, .sideNav__navSquare--active a, .sideNav__navSquare--active a:visited {
     color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+    .sideNav, .sideNav__navSquare {
+        display: none;
+    }
 }

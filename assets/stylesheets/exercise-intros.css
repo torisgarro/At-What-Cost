@@ -30,3 +30,16 @@
 .sharePage p {
 	text-align: center;
 }
+
+@media screen and (max-width: 1024px) {
+    .exerciseIntro {
+		grid-column: 3/11;
+        margin-top: 100px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+    .exerciseIntro {
+        grid-column: 1/13;
+    }
+}

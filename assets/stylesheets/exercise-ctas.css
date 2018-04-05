@@ -17,3 +17,15 @@
     font-weight: 700;
     color: #1920FE;
 }
+
+@media screen and (max-width: 1024px) {
+    .exerciseCta {
+        grid-column: 3/11;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .exerciseCta {
+        grid-column: 1/13;
+    }
+}

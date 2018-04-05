@@ -38,3 +38,50 @@ li {
     background-position: 0 5px;
 	background-size: 12px;
 }
+
+@media screen and (max-width: 1200px) {
+    .exerciseSection img {
+        grid-column: 4/11;
+    }
+    
+    .exerciseSection__text {
+        grid-column: 4/11;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .exerciseSection img {
+        grid-column: 3/11;
+    }
+    
+    .exerciseSection__text {
+        grid-column: 3/11;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .exerciseSection img {
+        grid-column: 1/13;
+    }
+
+    .exerciseSection__text {
+        grid-column: 1/13;
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .mobileExercise {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .desktopExercise {
+        display: none;
+    }
+
+    .mobileExercise {
+        display: block;
+    }
+}

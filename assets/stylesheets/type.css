@@ -70,3 +70,19 @@ p {
     font-weight: 300;
     color: #000000;
 }
+
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h4 {
+        font-size: 28px;
+    }
+}
