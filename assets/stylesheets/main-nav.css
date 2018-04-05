@@ -79,6 +79,12 @@
         margin-right: 25px;
     }
 
+    .wrapperMainNav__social__socialIcon {
+        vertical-align: top;    
+        width: 20px;
+        margin: 10px;
+    }
+
     .wrapperMainNav__closeExercises {
         margin-right: 25px;
     }
