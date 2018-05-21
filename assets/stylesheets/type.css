@@ -7,7 +7,7 @@ h1 {
 }
 
 h2 {
-    font-family: Adobe Caslon Pro;
+    /* font-family: Adobe Caslon Pro; */
     font-size: 45px;
     font-weight: 300;
     color: #1920FE;
@@ -15,7 +15,7 @@ h2 {
 }
 
 h3 {
-    font-family: Adobe Caslon Pro;
+    /* font-family: Adobe Caslon Pro; */
     font-size: 32px;
     line-height: 40px;
     font-weight: 300;
@@ -24,7 +24,7 @@ h3 {
 }
 
 h4 {
-    font-family: Adobe Caslon Pro;
+    /* font-family: Adobe Caslon Pro; */
     font-style: italic;
     font-size: 32px;
     line-height: 40px;
@@ -48,7 +48,7 @@ h6 {
         display: inline-block;
         margin: 0;
         color: #000000;
-        font-family: Adobe Caslon Pro;
+        /* font-family: Adobe Caslon Pro; */
         font-size: 16px;
         line-height: 50px;
         font-weight: 700;
@@ -64,7 +64,7 @@ a {
 }
 
 p {
-    font-family: Overpass;
+    /* font-family: Overpass; */
     font-size: 14px;
     line-height: 21px;
     font-weight: 300;
